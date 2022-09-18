@@ -1,6 +1,7 @@
 package org.example.mvc;
 
 import org.example.controller.Controller;
+import org.example.controller.RequestMethod;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -29,7 +30,7 @@ public class DispatcherServlet extends HttpServlet {
         logger.info("[DispatcherServlet] service started");
 
         try {
-            Controller handler = requestMappingHandlerMapping.findHandler(request.getRequestURI());
+            Controller handler = requestMappingHandlerMapping.findHandler(new HandlerKey(RequestMethod.valueOf(request.getMethod()), request.getRequestURI()));
             String viewName = handler.handleRequest(request, response);
 
             RequestDispatcher requestDispatcher = request.getRequestDispatcher(viewName);
