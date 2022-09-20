@@ -1,6 +1,6 @@
 package org.example.mvc;
 
-import org.example.controller.RequestMethod;
+import org.example.mvc.controller.RequestMethod;
 
 import java.util.Objects;
 

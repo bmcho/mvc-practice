@@ -1,4 +1,4 @@
-package org.example.view;
+package org.example.mvc.view;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

@@ -1,7 +1,7 @@
-package org.example.controller;
+package org.example.mvc.controller;
 
-import org.example.model.User;
-import org.example.repository.UserRepository;
+import org.example.mvc.model.User;
+import org.example.mvc.repository.UserRepository;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

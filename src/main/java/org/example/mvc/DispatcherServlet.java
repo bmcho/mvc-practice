@@ -1,14 +1,13 @@
 package org.example.mvc;
 
-import org.example.controller.Controller;
-import org.example.controller.RequestMethod;
-import org.example.view.JspViewResolve;
-import org.example.view.View;
-import org.example.view.ViewResolver;
+import org.example.mvc.controller.Controller;
+import org.example.mvc.controller.RequestMethod;
+import org.example.mvc.view.JspViewResolve;
+import org.example.mvc.view.View;
+import org.example.mvc.view.ViewResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

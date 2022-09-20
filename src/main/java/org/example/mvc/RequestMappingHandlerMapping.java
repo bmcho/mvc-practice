@@ -1,6 +1,6 @@
 package org.example.mvc;
 
-import org.example.controller.*;
+import org.example.mvc.controller.*;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,10 +1,9 @@
-package org.example.controller;
+package org.example.mvc.controller;
 
-import org.example.repository.UserRepository;
+import org.example.mvc.repository.UserRepository;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.List;
 
 public class UserListController implements Controller {
 

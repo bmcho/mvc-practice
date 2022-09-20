@@ -1,6 +1,6 @@
-package org.example.view;
+package org.example.mvc.view;
 
-import static org.example.view.RedirectView.DEFAULT_REDIRECT_PREFIX;
+import static org.example.mvc.view.RedirectView.DEFAULT_REDIRECT_PREFIX;
 
 public class JspViewResolve implements ViewResolver {
     @Override

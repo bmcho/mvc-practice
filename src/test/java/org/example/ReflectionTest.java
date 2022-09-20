@@ -6,7 +6,7 @@ package org.example;
 
 import org.example.annotation.Controller;
 import org.example.annotation.Service;
-import org.example.model.User;
+import org.example.mvc.model.User;
 import org.junit.jupiter.api.Test;
 import org.reflections.Reflections;
 import org.slf4j.Logger;

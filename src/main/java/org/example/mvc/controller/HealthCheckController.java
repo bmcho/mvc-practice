@@ -1,3 +1,3 @@
-package org.example.controller;
+package org.example.mvc.controller;
 public class HealthCheckController {
 }
