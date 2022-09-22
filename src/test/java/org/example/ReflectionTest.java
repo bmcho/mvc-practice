@@ -4,7 +4,7 @@ package org.example;
  * @Controller 애노테이션이 설정돼 있는 모든 클래스를 찾아서 출력한다.
  */
 
-import org.example.annotation.Controller;
+import org.example.mvc.annotation.Controller;
 import org.example.annotation.Service;
 import org.example.mvc.model.User;
 import org.junit.jupiter.api.Test;
